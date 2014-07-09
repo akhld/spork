@@ -67,7 +67,7 @@ if [ -z "$PIG_HOME" ]; then
     exit 1
 fi
 
-if [ -z "$PIG_HOME" ]; then
+if [ -z "$HBASE_HOME" ]; then
     echo "You need to set HBASE_HOME"
     exit 1
 fi
